@@ -32,3 +32,19 @@ h1, h2 {
     border-bottom: 10px solid black;
     border-left: 10px solid black;
 }
+
+.imgdiv {
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#olympia {
+    height: 250px;
+    display: inline;
+}
+
+#rings {
+	height: 200px;
+	display: inline;
+}
+
