@@ -14,16 +14,18 @@ body {
 
 p {
     font-size: 20px;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 h1, h2 {
     margin-bottom: 3%;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 .textdiv {
     margin-bottom: 5%;
     border-left: 2px solid grey;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #vid {
