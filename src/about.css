@@ -1,0 +1,32 @@
+body {
+    font-family: 'Sen', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#root {
+    text-align: center;
+}
+
+#vid {
+    display: inline-block;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+h1, h2 {
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+.textdiv {
+    margin-bottom: 5%;
+    border-left: 2px solid grey;
+}
+
+#vid {
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+}
