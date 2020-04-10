@@ -1,9 +1,16 @@
+#event-title {
+	font-size: 3rem;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
 .main {
+	border-top: 2px solid grey;
 	margin: auto; 
 	width: 800px;
 	text-align: center;
 	position: relative;
-	margin-top: 50px;
 }
 
 .sports-container {
@@ -12,7 +19,7 @@
 	height: 130px;
 	margin-left: 15px;
 	margin-right: 15px;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 .sports-image {
