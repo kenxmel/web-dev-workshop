@@ -12,6 +12,25 @@ a {
 	text-decoration: none;
 }
 
+@font-face {
+	font-family: 'digital-clock-font';
+	src: url('../assets/digital-7\ \(mono\).ttf');
+}
+
+#timer {
+	text-align: center;
+	font-size: 8rem;
+	font-family: 'digital-clock-font';
+	border: 1px solid black;
+	background-color: grey;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#timer:hover {
+	background-color: lightgrey;
+}
+
 .bg-light {
 	background-color: #f8f9fa;
 }
@@ -66,4 +85,11 @@ a {
 
 .title-year {
 	color: black;
+}
+
+.timer-container {
+	display: inline-flexbox;
+	margin: auto;
+	margin-top: 15%;
+	text-align: center;
 }
