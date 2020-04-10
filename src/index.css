@@ -35,12 +35,19 @@ a {
 .navbar-pages {
 	margin-right: 50px;
 	font-size: 1.5rem;
+	transition: 0.3s;
+}
+
+.navbar-pages:hover {
+	text-decoration: underline;
+	opacity: 0.6;
+	color: grey;
 }
 
 .navbar-items {
 	justify-content: space-between;
 	align-items: center; 
-	display: flex; 
+	display: flex;
 }
 
 .navbar-title {
