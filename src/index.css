@@ -36,6 +36,21 @@ a {
 	background-color: #f8f9fa;
 }
 
+.content-container {
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: table;
+	position: absolute;
+	z-index: -1;
+}
+
+.content-container-middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .giffy {
 	display: flex;
 	margin: auto;
