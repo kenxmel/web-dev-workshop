@@ -19,16 +19,14 @@ a {
 
 #timer {
 	text-align: center;
-	font-size: 8rem;
+	font-size: 6.5rem;
 	font-family: 'digital-clock-font';
 	border: 1px solid black;
 	background-color: grey;
 	transition: 0.3s;
 	cursor: pointer;
-}
-
-#timer:hover {
-	background-color: lightgrey;
+	margin: auto;
+	width: 70%;
 }
 
 .active {
