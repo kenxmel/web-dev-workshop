@@ -31,6 +31,10 @@ a {
 	background-color: lightgrey;
 }
 
+.active {
+	font-weight: bold;
+}
+
 .bg-light {
 	background-color: #f8f9fa;
 }
@@ -53,7 +57,7 @@ a {
 
 .navbar-pages {
 	margin-right: 50px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	transition: 0.3s;
 }
 
@@ -80,7 +84,7 @@ a {
 
 .navbar-title-items {
 	display: inline-flex;
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .title-year {
