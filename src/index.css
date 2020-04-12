@@ -37,6 +37,12 @@ a {
 	background-color: #f8f9fa;
 }
 
+.giffy {
+	display: flex;
+	margin: auto;
+	margin-top: 30px;
+}
+
 .logo {
 	width: 60px;
 	height: 90px;
@@ -82,7 +88,7 @@ a {
 
 .navbar-title-items {
 	display: inline-flex;
-	margin-left: 5px;
+	margin-left: 8px;
 }
 
 .title-year {
@@ -92,6 +98,5 @@ a {
 .timer-container {
 	display: inline-flexbox;
 	margin: auto;
-	margin-top: 15%;
 	text-align: center;
 }
