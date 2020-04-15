@@ -3,7 +3,7 @@ li {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Sen', sans-serif;
 	margin: 0px;
 }
 
@@ -118,4 +118,90 @@ a {
 	margin: auto;
 	margin-top: 30px;
 	text-align: center;
+}
+
+/* events.html CSS */
+
+#event-title {
+	font-size: 3rem;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main {
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+	text-align: center;
+	position: relative;
+}
+
+.sports-container {
+	display: inline-grid;
+	width: 210px;
+	height: 210px;
+	margin-bottom: 2px;
+	transition: 0.3s;
+}
+
+.sports-container:hover {
+	background-color: #d8d7d6;
+}
+
+.sports-image {
+	width: 160px;
+	height: 160px;
+	margin: auto;
+}
+
+/* about.html CSS */
+
+#root {
+	margin-top: 10px;
+    text-align: center;
+}
+
+#vid {
+    display: inline-block;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+h1, h2 {
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.textdiv {
+	margin-bottom: 8px;
+    border-left: 2px solid grey;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#vid {
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+}
+
+.imgdiv {
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#olympia {
+    min-width: 80%;
+    height: auto;
+    display: inline-flex;
+}
+
+#rings {
+	width: 250px;
+	height: auto;
+	display: inline-flex;
 }
