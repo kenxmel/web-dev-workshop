@@ -36,7 +36,6 @@ a {
 	font-family: 'digital-clock-font';
 	transition: 0.3s;
 	margin: auto;
-	width: 70%;
 }
 
 .active {
@@ -211,7 +210,7 @@ h1, h2 {
 }
 
 #olympia {
-    min-width: 80%;
+    max-width: 80%;
     height: auto;
     display: inline-flex;
 }
