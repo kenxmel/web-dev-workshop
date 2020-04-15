@@ -3,7 +3,7 @@ sports = ["3x3 Basketball", "Archery", "Artistic Gymnastics", "Artistic Swimming
 const main = document.getElementById("main");
 
 const title = document.getElementById("event-title");
-title.textContent = "Olympic Sports";
+title.innerHTML = "Available Sports";
 
 for (let i = 0; i < sports.length; i++) {
 	const sportsContainer = document.createElement("div");
