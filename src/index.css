@@ -3,7 +3,7 @@ li {
 }
 
 body {
-	font-family: 'Sen', sans-serif;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	background-image: url(../assets/background.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -21,7 +21,18 @@ a {
 	src: url('../assets/digital-7\ \(mono\).ttf');
 }
 
+.smaller-content-container {
+	animation: fade-in 2s;
+	margin: auto;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	width: 1000px;
+	background: rgba(255, 255, 255);
+	background: rgba(255, 255, 255, 0.8);
+}
+
 .content-container {
+	animation: fade-in 2s;
 	margin: auto;
 	padding-bottom: 40px;
 	padding-top: 10px;
@@ -206,7 +217,7 @@ h1, h2 {
 }
 
 #olympia {
-    max-width: 80%;
+    width: 400px;
     height: auto;
     display: inline-flex;
 }
@@ -215,4 +226,13 @@ h1, h2 {
 	width: 250px;
 	height: auto;
 	display: inline-flex;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
 }
